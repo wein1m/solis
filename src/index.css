@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #f27d25;
+    --color-primary-hover: #f88631;
+}
+
+@font-face {
+  font-family:"arizona";
+  src:url(/fonts/arizona_flare.woff) format("woff");
+  font-display:swap;
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"arizona";
+  src:url(/fonts/arizona_flare_thin.woff) format("woff");
+  font-display:swap;
+  font-weight:300;
+  font-style:normal
+}
+
+@font-face {
+    font-family:"figtree";
+    src:url(/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+}
+
+.font-arizona {
+    font-family:"arizona", sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+}
+
+.font-figtree {
+    font-family:"figtree", sans-serif;
+    @apply tracking-wider text-xl;
+}
