@@ -36,3 +36,11 @@
     font-family:"figtree", sans-serif;
     @apply tracking-wider text-xl;
 }
+
+* {
+    @apply font-[figtree];
+}
+
+.primary-cta {
+    @apply rounded-lg bg-primary text-white font-medium px-6 py-3 hover:bg-primary-hover;
+}

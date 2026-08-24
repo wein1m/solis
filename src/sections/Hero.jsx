@@ -17,10 +17,7 @@ const Hero = () => {
             designed to help you manage daily stress, overcome burnout, and
             prioritize your well-being from the comfort of your home.
           </p>
-          <a
-            href="#"
-            className="rounded-lg bg-primary text-white font-medium px-6 py-3 hover:bg-primary-hover"
-          >
+          <a href="#" className="primary-cta">
             Schedule a consultation
           </a>
         </div>
