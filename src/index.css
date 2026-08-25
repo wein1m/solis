@@ -3,6 +3,8 @@
 @theme {
     --color-primary: #f27d25;
     --color-primary-hover: #f88631;
+
+    --color-white: #fffffd;
 }
 
 @font-face {
@@ -41,6 +43,10 @@
     @apply font-[figtree];
 }
 
+body {
+    @apply bg-white;
+}
+
 .primary-cta {
-    @apply rounded-lg bg-primary text-white font-medium px-6 py-3 hover:bg-primary-hover;
+    @apply rounded-lg bg-primary text-white font-medium px-6 py-3 hover:bg-primary-hover hover:cursor-pointer;
 }
