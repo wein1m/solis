@@ -5,6 +5,7 @@ import About from "./sections/About";
 import Hero from "./sections/Hero";
 import WhyUs from "./sections/WhyUs";
 import Experience from "./sections/Experience";
+import Testimonials from "./sections/Testimonials";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <About />
       <WhyUs />
       <Experience />
+      <Testimonials />
     </ReactLenis>
   );
 };
