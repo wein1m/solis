@@ -16,7 +16,7 @@ const WhyUs = () => {
     },
   ];
   return (
-    <div className="py-44 px-54">
+    <div className="py-24 px-54">
       <div className="bg-[#fdf9e9] w-full rounded-4xl flex px-10 py-16 relative">
         <div className="flex flex-col w-1/2">
           <div className="flex items-center gap-2 mb-4">

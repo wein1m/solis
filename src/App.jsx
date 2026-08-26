@@ -4,6 +4,7 @@ import "lenis/dist/lenis.css";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import WhyUs from "./sections/WhyUs";
+import Experience from "./sections/Experience";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Hero />
       <About />
       <WhyUs />
+      <Experience />
     </ReactLenis>
   );
 };
