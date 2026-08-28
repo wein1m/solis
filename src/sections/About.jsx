@@ -1,3 +1,5 @@
+import sun from "../assets/sun.png";
+
 const About = () => {
   return (
     <div className="relative text-center py-64 px-96">
@@ -18,8 +20,8 @@ const About = () => {
       </div>
 
       <img
-        src="https://cdn.prod.website-files.com/68235d19001da11fe701c90e/68235d19001da11fe701c91c_sun.svg"
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-1"
+        src={sun}
+        className="scale-125 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-1 blur-[2px]"
       />
     </div>
   );
