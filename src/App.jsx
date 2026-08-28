@@ -6,6 +6,7 @@ import Hero from "./sections/Hero";
 import WhyUs from "./sections/WhyUs";
 import Experience from "./sections/Experience";
 import Testimonials from "./sections/Testimonials";
+import Prices from "./sections/Prices";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <WhyUs />
       <Experience />
       <Testimonials />
+      <Prices />
     </ReactLenis>
   );
 };
