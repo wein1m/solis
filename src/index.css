@@ -45,7 +45,8 @@
 }
 
 body {
-    @apply bg-white;
+    /* @apply bg-white; */
+    @apply absolute inset-0 size-full bg-[url("assets/noise.png")] w-[100vw] overflow-x-hidden;
 }
 
 .primary-cta {

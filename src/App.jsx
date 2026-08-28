@@ -7,6 +7,7 @@ import WhyUs from "./sections/WhyUs";
 import Experience from "./sections/Experience";
 import Testimonials from "./sections/Testimonials";
 import Prices from "./sections/Prices";
+import NavBar from "./sections/NavBar";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         anchors: true,
       }}
     >
+      <NavBar />
       <Hero />
       <About />
       <WhyUs />

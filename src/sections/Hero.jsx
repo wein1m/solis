@@ -2,9 +2,9 @@ import heroImg from "../assets/hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="flex py-24 px-42 w-full h-screen gap-12">
+    <div className="flex pt-0 pb-24 px-52 w-full h-[90vh] gap-12">
       <div className="w-1/2 h-full">
-        <img src={heroImg} className="w-full h-full object-cover rounded-xl" />
+        <img src={heroImg} className="w-full h-full object-cover rounded-3xl" />
       </div>
 
       <div className="w-1/2 flex flex-col justify-around">
