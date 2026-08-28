@@ -3,7 +3,7 @@ const TestimonialCard = ({ message, author }) => {
   const profileImg = "https://i.pravatar.cc/50?img=" + safeName;
 
   return (
-    <div className="bg-white rounded-xl p-6 h-fit mb-4 break-inside-avoid">
+    <div className="bg-white rounded-xl p-6 h-fit mb-4 break-inside-avoid shadow-sm">
       <svg
         viewBox="0 0 23 20"
         fill="none"
