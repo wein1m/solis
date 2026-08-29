@@ -14,8 +14,8 @@ const Testimonials = () => {
 
           <div className="w-0.5 h-6 bg-gray-500/50" />
 
-          <div class="flex flex-col">
-            <div class="flex flex-row gap-2">
+          <div className="flex flex-col">
+            <div className="flex flex-row gap-2">
               <span>4.9</span>
               <img src="https://cdn.prod.website-files.com/68235d19001da11fe701c90e/69bbdbc986fea61619bd2902_star.svg" />
             </div>
