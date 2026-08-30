@@ -3,6 +3,7 @@ import "lenis/dist/lenis.css";
 
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Intro from "./sections/Intro";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
       }}
     >
       <NavBar />
+      <Intro />
       <Footer />
     </ReactLenis>
   );
