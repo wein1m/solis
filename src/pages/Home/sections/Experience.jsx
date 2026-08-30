@@ -1,4 +1,4 @@
-import experience from "../assets/experience.png";
+import experience from "@/assets/experience.png";
 
 const Experience = () => {
   return (

@@ -1,4 +1,4 @@
-import illustration from "../assets/why-us.png";
+import illustration from "@/assets/why-us.png";
 
 const WhyUs = () => {
   const contents = [

@@ -1,4 +1,4 @@
-import prices from "../assets/prices.jpg";
+import prices from "@/assets/prices.jpg";
 
 const Prices = () => {
   return (
