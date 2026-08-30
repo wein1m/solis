@@ -40,7 +40,7 @@ const FAQ = () => {
               key={index}
               className="py-8 flex justify-between hover:cursor-pointer transition-all"
             >
-              <div className="flex flex-col gap-4 w-full">
+              <div className="flex flex-col w-full">
                 <div className="flex flex-row w-full justify-between items-center">
                   <h3 className="text-3xl tracking-tight">{faq.question}</h3>
                   <svg
@@ -59,7 +59,7 @@ const FAQ = () => {
                   className={`grid transition-all
                     ${index === isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
                 >
-                  <div className="overflow-hidden">
+                  <div className="overflow-hidden mt-4">
                     <span className="text-lg tracking-wide text-black/80">
                       {faq.answer}
                     </span>
